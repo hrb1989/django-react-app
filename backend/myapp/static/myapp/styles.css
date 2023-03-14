@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+}

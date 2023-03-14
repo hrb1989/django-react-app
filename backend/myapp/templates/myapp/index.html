@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+    <head>
+        <title>MyApp</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}" />
+    </head>
+    <body>
+        <div id="app">
+            <h1>Welcome to MyApp</h1>
+            <button id="click">Click Here</button>
+        </div>
+        <script src="{% static 'myapp/build/main.js' %}"></script>
+    </body>
+</html>
